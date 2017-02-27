@@ -68,5 +68,10 @@ The [features/libyui_manywidgets.feature](features/libyui_manywidgets.feature)
 contains a test for the [ManyWidgets.cc](
 https://github.com/libyui/libyui/blob/master/examples/ManyWidgets.cc) example.
 
+*Note: There seems to be a bug in the libyui-qt, right at the begining
+there is an unprocessed event in the queue which is ignored, but it blocks
+the Cucumber commands processing. As a workaround you need to press some
+widget, e.g. the "Enabled" button and then start the Cucumber test.*
+
 [![Libyui ManyWidgets Example](images/libyui_manywidgets.gif)](
   https://raw.githubusercontent.com/lslezak/cucumber-yast/master/images/libyui_manywidgets.gif)
