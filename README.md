@@ -1,6 +1,6 @@
 # Experimental Cucumber Tests for YaST
 
-Here are some experimental Cucumber tests for YaST.
+Here are some experimental Cucumber tests for YaST or plain libyui examples.
 
 ## Installation
 
@@ -45,3 +45,28 @@ in a virtual machine.
   ```
   [![Installation Screencast](images/install_leap_42.2.gif)](
     https://raw.githubusercontent.com/lslezak/cucumber-yast/master/images/install_leap_42.2.gif)
+
+### Testing a Plain libyui Application
+
+The Cucumber tests can used also for any application which uses the libyui
+framework.
+
+- Set these environment variables
+  - YUI_CUCUMBER_DELAY=3000
+  - YUI_CUCUMBER_PORT=3902
+- Then run the libyui Application
+- Start the Cucumber test
+
+The [features/libyui_selectionbox2.feature](features/libyui_selectionbox2.feature)
+contains a test for the [SelectionBox2.cc](
+https://github.com/libyui/libyui/blob/master/examples/SelectionBox2.cc) example.
+
+[![Libyui SelectionBox2 Example](images/libyui_selectionbox2.gif)](
+  https://raw.githubusercontent.com/lslezak/cucumber-yast/master/images/libyui_selectionbox2.gif)
+
+The [features/libyui_manywidgets.feature](features/libyui_manywidgets.feature)
+contains a test for the [ManyWidgets.cc](
+https://github.com/libyui/libyui/blob/master/examples/ManyWidgets.cc) example.
+
+[![Libyui ManyWidgets Example](images/libyui_manywidgets.gif)](
+  https://raw.githubusercontent.com/lslezak/cucumber-yast/master/images/libyui_manywidgets.gif)
