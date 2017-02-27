@@ -24,7 +24,8 @@ bundle install --path ./.vendor/bundler
   bundle exec cucumber features/adding_new_repo.feature
   ```
 
-  ![Add Repository Screencast](images/add_repo.gif)
+  [![Add Repository Screencast](images/add_repo.gif)](
+    https://raw.githubusercontent.com/lslezak/cucumber-yast/master/images/add_repo.gif)
 
 ### Testing a Remote Instance
 
@@ -42,4 +43,5 @@ in a virtual machine.
   ```sh
   bundle exec cucumber features/installation.feature
   ```
-  ![Installation Screencast](images/install_leap_42.2.gif)
+  [![Installation Screencast](images/install_leap_42.2.gif)](
+    https://raw.githubusercontent.com/lslezak/cucumber-yast/master/images/install_leap_42.2.gif)
