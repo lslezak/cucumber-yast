@@ -1,3 +1,0 @@
-# change the host name for remote tests
-host: localhost
-port: 3902
