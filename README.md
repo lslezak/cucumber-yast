@@ -61,7 +61,7 @@ bundle install --path ./.vendor/bundler
   ```
 
   [![Add Repository Screencast](images/cucumber_add_repo_textmode.gif)](
-  https://raw.githubusercontent.com/lslezak/cucumber-yast/master/images/cucumber_add_repo_textmode.gif))
+  https://raw.githubusercontent.com/lslezak/cucumber-yast/master/images/cucumber_add_repo_textmode.gif)
 
 ### Testing a Remote Instance
 
@@ -71,11 +71,11 @@ even test an YaST installation running in a virtual machine.
 
 To allow remote access to the API you need to additionally set the variable
 `YUI_HTTP_REMOTE=1`, otherwise the API will be available only locally.
+You might also need to open the used port in firewall.
 
 :warning: *For security reasons enable remote access only in a trusted network
 or in a testing machine, using a virtual machine is highly recommended.*
 
-You might also need to open the used port in firewall.
 
 ### Testing the YaST Installer
 
